@@ -7,29 +7,41 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <h1>Sign up</h1>
+<body>   
+    <div>
+        <input type="checkbox" id="chk" aria-hidden="true">
+        <div>
+            <form action="/">
+                <label for="chk" aria-hidden="true">Sign up</label>
+                
+                <input type="text" placeholder="Username" required="">
+                <i class='bx bxs-user'></i>
+
+                <input type="email" placeholder="Email" required="">
+                <i class='bx bxs-envelope' ></i>
+
+                <input type="password" placeholder="Password" required="">
+                <i class='bx bxs-lock-alt' ></i>
+
+                <button type="submit">Sign up</button>
+                
+                <label><input type="checkbox">Remember me</label>
+            </form>
+        </div>
     
-    <form target="">
-        <input type="text" placeholder="Username" required>
-        <i class='bx bxs-user'></i>
-        <input type="email" placeholder="Email" required>
-        <i class='bx bxs-envelope' ></i>
-        <input type="password" placeholder="Password" required>
-        <i class='bx bxs-lock-alt' ></i>
-        <label><input type="checkbox">Remember me</label>
-    </form>
-    
-    <button type="submit">Sign up</button>
-    
-    <button>
-        Login
-        <!--
-        <input type="email" placeholder="Email" required>
-        <i class='bx bxs-envelope' ></i>
-        <input type="password" placeholder="Password" required>
-        <i class='bx bxs-lock-alt' ></i>
-        -->
-    </button>
+        <div>
+            <form action="/">   
+                <label for="chk" aria-hidden="true">Login</label>
+                
+                <input type="email" placeholder="Email" required="">
+                <i class='bx bxs-envelope' ></i>
+
+                <input type="password" placeholder="Password" required="">
+                <i class='bx bxs-lock-alt' ></i>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
