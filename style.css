@@ -42,5 +42,18 @@ label {
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s ease-in-out;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    background-color: #E0DEDE;
+    justify-content: center;
+    display: flex;
+    margin: 1px auto;
+    padding: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
 }
