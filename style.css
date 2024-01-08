@@ -51,7 +51,7 @@ input {
     background-color: #E0DEDE;
     justify-content: center;
     display: flex;
-    margin: 1px auto;
+    margin: 20px auto;
     padding: 18px;
     border: none;
     outline: none;
@@ -102,4 +102,10 @@ button:hover {
 
 #chk:checked ~ .signup label {
     transform: scale(0.6);
+}
+
+i {
+    position: absolute;
+    right: 55px;
+    transform: translateY(-50px);
 }
