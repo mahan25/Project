@@ -78,3 +78,16 @@ button {
 button:hover {
     background-color: #4A55A2;
 }
+
+.login {
+    height: 460px;
+    background-color: #EEEEEE;
+    border-radius: 60% / 10%;
+    transform: translateY(-150px);
+    transition: 0.8s ease-in-out;
+}
+
+.login label {
+    color: #4A55A2;
+    transform: scale(0.6);
+}
