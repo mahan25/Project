@@ -91,3 +91,15 @@ button:hover {
     color: #4A55A2;
     transform: scale(0.6);
 }
+
+#chk:checked ~ .login {
+    transform: translateY(-470px);
+}
+
+#chk:checked ~ .login label {
+    transform: scale(1);
+}
+
+#chk:checked ~ .signup label {
+    transform: scale(0.6);
+}
